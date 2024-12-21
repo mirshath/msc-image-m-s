@@ -47,11 +47,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="mb-3">
                 <label for="role" class="form-label">Role</label>
                 <select class="form-select" id="role" name="role" required>
-                    <option value="patient">Patient</option>
-                    <option value="radiology_staff">Radiology Staff</option>
-                    <option value="doctor">Doctor</option>
-                    <option value="admin">Admin</option>
-                    <option value="financial_staff">Financial Staff</option>
+                    <option value="patient" selected>Patient</option>
+                    <!-- <option value="radiology_staff">Radiology Staff</option> -->
+                    <!-- <option value="doctor">Doctor</option> -->
+                    <!-- <option value="admin">Admin</option> -->
+                    <!-- <option value="financial_staff">Financial Staff</option> -->
                 </select>
             </div>
             <div class="d-grid">
